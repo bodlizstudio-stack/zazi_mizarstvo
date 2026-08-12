@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { company } from "@/data/company";
-import { SawBladeBackdrop } from "@/components/SawBlade";
+import { SawBladePhoto } from "@/components/SawBladePhoto";
 
 type CTASectionProps = {
   title?: string;
@@ -15,9 +15,9 @@ export function CTASection({
     <section className="section-y">
       <div className="container-x">
         <div className="relative overflow-hidden rounded-[var(--radius-lg)] wood-grain px-6 py-12 md:px-12 md:py-16">
-          <SawBladeBackdrop
-            tone="light"
-            className="right-[4%] top-[18%] w-[min(55vw,300px)] opacity-90"
+          <SawBladePhoto
+            speed="slow"
+            className="-right-[6%] -top-[10%] w-[min(60vw,320px)] opacity-45"
           />
           <div className="relative max-w-2xl">
             <p className="text-sand text-xs uppercase tracking-[0.2em] mb-4 measure-line">

@@ -184,10 +184,27 @@ img {
   will-change: transform;
 }
 
+/* Photoreal blade rotor */
+.saw-photo-rotor {
+  transform-origin: 50% 50%;
+  animation: saw-spin-rotor 6s linear infinite;
+  will-change: transform;
+}
+
+/* Soften the circular edge so the disc melts into the scene */
+.saw-photo-mask {
+  -webkit-mask-image: radial-gradient(circle at 50% 50%, #000 62%, rgba(0, 0, 0, 0.45) 78%, transparent 92%);
+  mask-image: radial-gradient(circle at 50% 50%, #000 62%, rgba(0, 0, 0, 0.45) 78%, transparent 92%);
+}
+
 @media (prefers-reduced-motion: reduce) {
   .saw-slow,
   .saw-spin-rotor {
     animation: saw-spin-rotor 60s linear infinite;
+  }
+
+  .saw-photo-rotor {
+    animation: saw-spin-rotor 40s linear infinite;
   }
 }
 
