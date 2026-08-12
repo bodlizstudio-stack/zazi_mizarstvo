@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" fill="#EFE8DC"/>
+  <rect x="40" y="40" width="720" height="920" stroke="#CBBFAE" stroke-width="1"/>
+  <text x="80" y="480" fill="#4A3728" font-family="Georgia, serif" font-size="42">Fotografija projekta</text>
+  <text x="80" y="540" fill="#6E655C" font-family="Arial, sans-serif" font-size="22">Zamenjajte z resnino fotografijo</text>
+</svg>

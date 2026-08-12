@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" role="img" aria-labelledby="zaziLogoTitle">
+  <title id="zaziLogoTitle">}A}I logotip</title>
+  <!-- Circular saw blade motif -->
+  <circle cx="100" cy="100" r="92" stroke="currentColor" stroke-width="3"/>
+  <circle cx="100" cy="100" r="28" stroke="currentColor" stroke-width="3"/>
+  <circle cx="100" cy="100" r="8" fill="currentColor"/>
+  <!-- Teeth -->
+  <g fill="currentColor">
+    <path d="M100 8 L108 28 L92 28 Z"/>
+    <path d="M100 192 L92 172 L108 172 Z"/>
+    <path d="M8 100 L28 92 L28 108 Z"/>
+    <path d="M192 100 L172 108 L172 92 Z"/>
+    <path d="M35.1 35.1 L52.5 45.5 L45.5 52.5 Z"/>
+    <path d="M164.9 164.9 L147.5 154.5 L154.5 147.5 Z"/>
+    <path d="M164.9 35.1 L154.5 52.5 L147.5 45.5 Z"/>
+    <path d="M35.1 164.9 L45.5 147.5 L52.5 154.5 Z"/>
+    <path d="M100 8 L108 28 L92 28 Z" transform="rotate(22.5 100 100)"/>
+    <path d="M100 8 L108 28 L92 28 Z" transform="rotate(45 100 100)"/>
+    <path d="M100 8 L108 28 L92 28 Z" transform="rotate(67.5 100 100)"/>
+    <path d="M100 8 L108 28 L92 28 Z" transform="rotate(112.5 100 100)"/>
+    <path d="M100 8 L108 28 L92 28 Z" transform="rotate(135 100 100)"/>
+    <path d="M100 8 L108 28 L92 28 Z" transform="rotate(157.5 100 100)"/>
+    <path d="M100 8 L108 28 L92 28 Z" transform="rotate(202.5 100 100)"/>
+    <path d="M100 8 L108 28 L92 28 Z" transform="rotate(225 100 100)"/>
+    <path d="M100 8 L108 28 L92 28 Z" transform="rotate(247.5 100 100)"/>
+    <path d="M100 8 L108 28 L92 28 Z" transform="rotate(292.5 100 100)"/>
+    <path d="M100 8 L108 28 L92 28 Z" transform="rotate(315 100 100)"/>
+    <path d="M100 8 L108 28 L92 28 Z" transform="rotate(337.5 100 100)"/>
+  </g>
+</svg>
