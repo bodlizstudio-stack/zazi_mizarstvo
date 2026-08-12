@@ -5,6 +5,8 @@ import { ProcessSteps } from "@/components/ProcessSteps";
 import { InstagramFeed } from "@/components/InstagramFeed";
 import { CTASection } from "@/components/CTASection";
 import { SectionHeading } from "@/components/SectionHeading";
+import { ProjectMarquee } from "@/components/ProjectMarquee";
+import { CraftSpotlight } from "@/components/CraftSpotlight";
 import { company } from "@/data/company";
 import { buildMetadata } from "@/lib/seo";
 
@@ -19,8 +21,11 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <ProjectMarquee />
 
       <ServicesPreview />
+
+      <CraftSpotlight />
 
       <section className="section-y bg-cream/50">
         <div className="container-x grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
